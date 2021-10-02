@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		483CECE12707AE52004F3706 /* CinemaUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CECE02707AE52004F3706 /* CinemaUIApp.swift */; };
+		483CECE32707AE52004F3706 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CECE22707AE52004F3706 /* ContentView.swift */; };
+		483CECE52707AE53004F3706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483CECE42707AE53004F3706 /* Assets.xcassets */; };
+		483CECE82707AE53004F3706 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 483CECE72707AE53004F3706 /* Preview Assets.xcassets */; };
+		483CECF02707B0F3004F3706 /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483CECEF2707B0F3004F3706 /* TicketsView.swift */; };
+		48C1B8C92707D39500E1C6B3 /* SeatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1B8C82707D39500E1C6B3 /* SeatView.swift */; };
+		48C1B8CB2707DFC500E1C6B3 /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1B8CA2707DFC500E1C6B3 /* SeatsView.swift */; };
+		48C1B8CD2707EE3F00E1C6B3 /* Row.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1B8CC2707EE3F00E1C6B3 /* Row.swift */; };
+		48C1B8CF2707FD5700E1C6B3 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C1B8CE2707FD5700E1C6B3 /* AboutView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		483CECDD2707AE52004F3706 /* CinemaUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		483CECE02707AE52004F3706 /* CinemaUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaUIApp.swift; sourceTree = "<group>"; };
+		483CECE22707AE52004F3706 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		483CECE42707AE53004F3706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		483CECE72707AE53004F3706 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		483CECE92707AE53004F3706 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483CECEF2707B0F3004F3706 /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		48C1B8C82707D39500E1C6B3 /* SeatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatView.swift; sourceTree = "<group>"; };
+		48C1B8CA2707DFC500E1C6B3 /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
+		48C1B8CC2707EE3F00E1C6B3 /* Row.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Row.swift; sourceTree = "<group>"; };
+		48C1B8CE2707FD5700E1C6B3 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		483CECDA2707AE52004F3706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		483CECD42707AE52004F3706 = {
+			isa = PBXGroup;
+			children = (
+				483CECDF2707AE52004F3706 /* CinemaUI */,
+				483CECDE2707AE52004F3706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		483CECDE2707AE52004F3706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				483CECDD2707AE52004F3706 /* CinemaUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		483CECDF2707AE52004F3706 /* CinemaUI */ = {
+			isa = PBXGroup;
+			children = (
+				483CECE02707AE52004F3706 /* CinemaUIApp.swift */,
+				483CECE22707AE52004F3706 /* ContentView.swift */,
+				48C1B8CE2707FD5700E1C6B3 /* AboutView.swift */,
+				483CECEF2707B0F3004F3706 /* TicketsView.swift */,
+				48C1B8CA2707DFC500E1C6B3 /* SeatsView.swift */,
+				48C1B8CC2707EE3F00E1C6B3 /* Row.swift */,
+				48C1B8C82707D39500E1C6B3 /* SeatView.swift */,
+				483CECE42707AE53004F3706 /* Assets.xcassets */,
+				483CECE92707AE53004F3706 /* Info.plist */,
+				483CECE62707AE53004F3706 /* Preview Content */,
+			);
+			path = CinemaUI;
+			sourceTree = "<group>";
+		};
+		483CECE62707AE53004F3706 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				483CECE72707AE53004F3706 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		483CECDC2707AE52004F3706 /* CinemaUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 483CECEC2707AE53004F3706 /* Build configuration list for PBXNativeTarget "CinemaUI" */;
+			buildPhases = (
+				483CECD92707AE52004F3706 /* Sources */,
+				483CECDA2707AE52004F3706 /* Frameworks */,
+				483CECDB2707AE52004F3706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CinemaUI;
+			productName = CinemaUI;
+			productReference = 483CECDD2707AE52004F3706 /* CinemaUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		483CECD52707AE52004F3706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					483CECDC2707AE52004F3706 = {
+						CreatedOnToolsVersion = 12.5;
+					};
+				};
+			};
+			buildConfigurationList = 483CECD82707AE52004F3706 /* Build configuration list for PBXProject "CinemaUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 483CECD42707AE52004F3706;
+			productRefGroup = 483CECDE2707AE52004F3706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				483CECDC2707AE52004F3706 /* CinemaUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		483CECDB2707AE52004F3706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483CECE82707AE53004F3706 /* Preview Assets.xcassets in Resources */,
+				483CECE52707AE53004F3706 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		483CECD92707AE52004F3706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				483CECF02707B0F3004F3706 /* TicketsView.swift in Sources */,
+				48C1B8CF2707FD5700E1C6B3 /* AboutView.swift in Sources */,
+				48C1B8C92707D39500E1C6B3 /* SeatView.swift in Sources */,
+				483CECE32707AE52004F3706 /* ContentView.swift in Sources */,
+				483CECE12707AE52004F3706 /* CinemaUIApp.swift in Sources */,
+				48C1B8CD2707EE3F00E1C6B3 /* Row.swift in Sources */,
+				48C1B8CB2707DFC500E1C6B3 /* SeatsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		483CECEA2707AE53004F3706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		483CECEB2707AE53004F3706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		483CECED2707AE53004F3706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CinemaUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VMTKGDC5W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CinemaUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannamoeller.CinemaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		483CECEE2707AE53004F3706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"CinemaUI/Preview Content\"";
+				DEVELOPMENT_TEAM = 4VMTKGDC5W;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = CinemaUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannamoeller.CinemaUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		483CECD82707AE52004F3706 /* Build configuration list for PBXProject "CinemaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483CECEA2707AE53004F3706 /* Debug */,
+				483CECEB2707AE53004F3706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		483CECEC2707AE53004F3706 /* Build configuration list for PBXNativeTarget "CinemaUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				483CECED2707AE53004F3706 /* Debug */,
+				483CECEE2707AE53004F3706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 483CECD52707AE52004F3706 /* Project object */;
+}
