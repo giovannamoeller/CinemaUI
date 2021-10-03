@@ -21,6 +21,4 @@ class Row: Identifiable, ObservableObject {
     self.isTaken = isTaken
     self.isSelected = isSelected
   }
-  
-  
 }

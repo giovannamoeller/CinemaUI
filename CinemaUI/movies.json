@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Avengers Endgame",
+    "year": "2019",
+    "image": "avengers",
+    "rate": 4.9,
+    "synopsis": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+  },
+  {
+    "id": 2,
+    "title": "Black Widow",
+    "year": "2021",
+    "image": "black-widow",
+    "rate": 4.7,
+    "synopsis": "In Marvel Studios' action-packed spy thriller Black Widow, Natasha Romanoff, aka Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger."
+  },
+  {
+    "id": 3,
+    "title": "Wonder Woman 1984",
+    "year": "2020",
+    "image": "ww84",
+    "rate": 4.0,
+    "synopsis": "As a young girl, Diana Prince participates in a multi-stage athletic competition on Themyscira against older Amazons. After falling from her horse and taking a shortcut, she is disqualified. Diana's mother, Queen Hippolyta, and her aunt Antiope lecture her on the importance of truth, 'because no hero is born from lies'."
+  },
+  {
+    "id": 4,
+    "title": "Joker",
+    "year": "2019",
+    "image": "joker",
+    "rate": 4.9,
+    "synopsis": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
+  },
+  {
+    "id": 5,
+    "title": "The Suicide Squad",
+    "year": "2021",
+    "image": "suicide-squad",
+    "rate": 4.9,
+    "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of crazy inmates in the Belle Reve Prison join the super-secret and super-dark Task Force X as they are dropped off on the remote enemy-infused island of Corto Maltese."
+  },
+  {
+    "id": 6,
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": "2021",
+    "image": "shang-chi",
+    "rate": 4.5,
+    "synopsis": "Shang-Chi is forced to confront a past he thought he had earlier when he is drawn into the web of the mysterious organization known as the Ten Rings."
+  },
+  {
+    "id": 7,
+    "title": "Soul",
+    "year": "2020",
+    "image": "soul",
+    "rate": 4.8,
+    "synopsis": "A musician who has lost his passion for music is transported out of his body and must find his way back with the help of a child's soul."
+  },
+  {
+    "id": 8,
+    "title": "Free Guy",
+    "year": "2021",
+    "image": "free-guy",
+    "rate": 3.8,
+    "synopsis": "A bank employee discovers that he is actually a character in a video game."
+  },
+  {
+    "id": 9,
+    "title": "Zack Snyder's Justice League",
+    "year": "2020",
+    "image": "justice-league",
+    "rate": 4.9,
+    "synopsis": "In a world of mourning and still learning to live without Superman, Bruce Wayne recruits a team of metahumans to face a relentless warlord from the stars determined to conquer Earth."
+  },
+  {
+    "id": 10,
+    "title": "Cruella",
+    "year": "2021",
+    "image": "cruella",
+    "rate": 4.9,
+    "synopsis": "A live action feature film following a young Cruella de Vil."
+  }
+]

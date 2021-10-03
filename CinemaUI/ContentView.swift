@@ -11,71 +11,37 @@ struct ContentView: View {
   
   @State var aboutView: Bool = false
   
+  
   var body: some View {
     NavigationView {
       ZStack {
         Color(#colorLiteral(red: 0.06666666667, green: 0.06666666667, blue: 0.06666666667, alpha: 1)).edgesIgnoringSafeArea(.all)
+        
+        let items: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+        
         VStack {
-          HStack {
-            Button(action: {}) {
-              Image(systemName: "chevron.backward")
-                .font(.title2)
-            }
-            
-            Spacer()
-            Text("Movie Detail")
+          
+          ScrollView(.vertical, showsIndicators: false) {
+            Text("Movies")
+              .foregroundColor(.white)
               .font(.title2)
               .bold()
-            Spacer()
-            Button(action: {
-              self.aboutView = true
-            }) {
-              Text("About")
-                .foregroundColor(Color(#colorLiteral(red: 0.3176470588, green: 0.09803921569, blue: 0.6784313725, alpha: 1)))
-            }.sheet(isPresented: $aboutView, content: {
-              AboutView()
-            })
-          }
-          
-          
-          VStack(spacing: 48) {
-            Spacer()
-            Image("avengers")
-              .resizable()
-              .aspectRatio(contentMode: .fit)
-              
-              .cornerRadius(8)
-              .shadow(radius: 20)
-            VStack(spacing: 8) {
-              Text("Avengers - Endgame")
-                .font(.title2)
-                .bold()
-              Text("2019")
-                .bold()
+              .padding()
+              .frame(maxWidth: .infinity, alignment: .leading)
+            LazyVGrid(columns: items, spacing: 48) {
+              ForEach(movies, id: \.id) { movie in
+                NavigationLink(destination: MovieDetailView(movie: movie)
+                                .navigationTitle("")
+                                .navigationBarHidden(true)) {
+                  MovieCard(movie: movie)
+                }
+              }
             }
-            
-            NavigationLink(destination: TicketsView().navigationTitle("")
-                            .navigationBarHidden(true)) {
-              
-                Text("Buy Tickets")
-                  .bold()
-                  .padding(.vertical)
-                  .padding(.horizontal, 32)
-                  .background(Color(#colorLiteral(red: 0.3176470588, green: 0.09803921569, blue: 0.6784313725, alpha: 1)))
-                  .cornerRadius(8.0)
-              
-            }
-            
-            
           }
-          
-          Spacer()
-        }.foregroundColor(.white)
-        .padding()
-      }.navigationTitle("")
-      .navigationBarHidden(true)
+        }.padding()
+        
+      }.preferredColorScheme(.dark)
     }
-    
   }
 }
 

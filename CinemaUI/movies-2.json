@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "title": "Avengers Endgame",
+    "year": "2019",
+    "image": "https://img.elo7.com.br/product/original/2678F78/cartaz-poster-vingadores-4-ultimato-filme-marvel-avengers-colecionador.jpg",
+    "rate": 4.9,
+    "synopsis": "After the devastating events of Avengers: Infinity War (2018), the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos' actions and restore balance to the universe."
+  },
+  {
+    "id": 2,
+    "title": "Black Widow",
+    "year": "2021",
+    "image": "https://pbs.twimg.com/media/E5EKmUwXwAYg3BW.jpg:large",
+    "rate": 4.7,
+    "synopsis": "In Marvel Studios' action-packed spy thriller Black Widow, Natasha Romanoff, aka Black Widow, confronts the darker parts of her ledger when a dangerous conspiracy with ties to her past arises. Pursued by a force that will stop at nothing to bring her down, Natasha must deal with her history as a spy and the broken relationships left in her wake long before she became an Avenger."
+  },
+  {
+    "id": 3,
+    "title": "Wonder Woman 1984",
+    "year": "2020",
+    "image": "https://upload.wikimedia.org/wikipedia/pt/b/b8/Wonder_Woman_1984.jpg",
+    "rate": 4.5,
+    "synopsis": "As a young girl, Diana Prince participates in a multi-stage athletic competition on Themyscira against older Amazons. After falling from her horse and taking a shortcut, she is disqualified. Diana's mother, Queen Hippolyta, and her aunt Antiope lecture her on the importance of truth, 'because no hero is born from lies'."
+  },
+  {
+    "id": 4,
+    "title": "Joker",
+    "year": "2019",
+    "image": "https://img.elo7.com.br/product/original/2A1A4BF/big-poster-filme-joker-coringa-joaquin-phoenix-lo02-90x60-cm-poster.jpg",
+    "rate": 4.9,
+    "synopsis": "In Gotham City, mentally troubled comedian Arthur Fleck is disregarded and mistreated by society. He then embarks on a downward spiral of revolution and bloody crime. This path brings him face-to-face with his alter-ego: the Joker."
+  },
+  {
+    "id": 5,
+    "title": "The Suicide Squad",
+    "year": "2021",
+    "image": "https://i.ytimg.com/vi/VZuLM-0fVok/movieposter_en.jpg",
+    "rate": 4.9,
+    "synopsis": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of crazy inmates in the Belle Reve Prison join the super-secret and super-dark Task Force X as they are dropped off on the remote enemy-infused island of Corto Maltese."
+  },
+  {
+    "id": 6,
+    "title": "Shang-Chi and the Legend of the Ten Rings",
+    "year": "2021",
+    "image": "https://s2.glbimg.com/C5NGJa7-Rg7EOYxgi9A2QPD_o8g=/0x0:984x1458/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_e84042ef78cb4708aeebdf1c68c6cbd6/internal_photos/bs/2021/P/1/GtIodFSmC7G2AczzG0RA/shangchi.jpeg",
+    "rate": 4.5,
+    "synopsis": "Shang-Chi is forced to confront a past he thought he had earlier when he is drawn into the web of the mysterious organization known as the Ten Rings."
+  },
+  {
+    "id": 7,
+    "title": "Soul",
+    "year": "2020",
+    "image": "https://static.wikia.nocookie.net/dublapc3a9dia/images/f/f0/Soul_%28P%C3%B4ster%29.jpg/revision/latest?cb=20210216233348&path-prefix=pt-br",
+    "rate": 4.8,
+    "synopsis": "A musician who has lost his passion for music is transported out of his body and must find his way back with the help of a child's soul."
+  },
+  {
+    "id": 8,
+    "title": "Free Guy",
+    "year": "2021",
+    "image": "https://br.web.img2.acsta.net/pictures/21/06/10/20/47/1652456.jpg",
+    "rate": 4.5,
+    "synopsis": "A bank employee discovers that he is actually a character in a video game."
+  },
+  {
+    "id": 9,
+    "title": "Zack Snyder's Justice League",
+    "year": "2020",
+    "image": "https://m.media-amazon.com/images/M/MV5BYjI3NDg0ZTEtMDEwYS00YWMyLThjYjktMTNlM2NmYjc1OGRiXkEyXkFqcGdeQXVyMTEyMjM2NDc2._V1_FMjpg_UX1000_.jpg",
+    "rate": 4.9,
+    "synopsis": "In a world of mourning and still learning to live without Superman, Bruce Wayne recruits a team of metahumans to face a relentless warlord from the stars determined to conquer Earth."
+  },
+  {
+    "id": 10,
+    "title": "Cruella",
+    "year": "2021",
+    "image": "https://i0.wp.com/cloud.estacaonerd.com/wp-content/uploads/2021/02/17103259/Disney-Cruella-Poster.jpg?fit=1688%2C2500&ssl=1",
+    "rate": 4.9,
+    "synopsis": "A live action feature film following a young Cruella de Vil."
+  }
+]
